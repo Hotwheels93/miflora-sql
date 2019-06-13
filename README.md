@@ -15,7 +15,7 @@ sudo apt-get bluez
 ### 2. Install miflora libray ###
 > sudo pip3 install miflora
 
-### 3. Install library bluepy ###
+### 3. Install bluepy ###
 > sudo pip3 install bluepy
 
 ### 4. Install mysql-connector ###
