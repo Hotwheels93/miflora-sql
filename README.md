@@ -44,23 +44,7 @@ Open miflora-sql-update.py
 
 ### 7. Create database tables ###
 
-Login to your server via phpMyAdminand and import the plants.sql or create table manually like this:
-
-> CREATE TABLE `plants` (
-  `id` int(11) UNSIGNED NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `battery` varchar(255) NOT NULL,
-  `temperature` varchar(255) NOT NULL,
-  `light` varchar(255) NOT NULL,
-  `moisture` varchar(255) NOT NULL,
-  `conductivity` varchar(255) NOT NULL,
-  `updated` timestamp NULL DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-> ALTER TABLE `plants`
-  ADD PRIMARY KEY (`id`);
-> ALTER TABLE `plants`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-COMMIT;
+Login to your server via phpMyAdminand and import the plants.sql or create table manually
 
 ### 8. Run & autostart it ### 
 
