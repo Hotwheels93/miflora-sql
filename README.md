@@ -1,7 +1,7 @@
 # miflora-sql
 Python script to push data from Miflora flower care to SQL database using the library of open-homeautomation (https://github.com/open-homeautomation/miflora)
 
-## Preperations ## 
+## Preparations ## 
 
 If you havent installed miflora library, bluez and mysql-connector for python yet, follow instructions 1-4, else continue with 5.
 
